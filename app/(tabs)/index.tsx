@@ -5,6 +5,8 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
+import * as Updates from 'expo-updates';
+
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
@@ -45,6 +47,7 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
+        <ThemedText type="defaultSemiBold">Update ID: {Updates.updateId}</ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
