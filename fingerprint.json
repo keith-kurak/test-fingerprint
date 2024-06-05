@@ -38,7 +38,7 @@
       "reasons": [
         "easBuild"
       ],
-      "hash": "5ea236f701fb2012b90d66637d895978c8d0e309"
+      "hash": "550e8c76765c5056dcc24d4969863498e3fcfc76"
     },
     {
       "type": "file",
@@ -1386,11 +1386,11 @@
     {
       "type": "contents",
       "id": "expoConfig",
-      "contents": "{\"android\":{\"adaptiveIcon\":{\"backgroundColor\":\"#ffffff\",\"foregroundImage\":\"./assets/images/adaptive-icon.png\"}},\"experiments\":{\"typedRoutes\":true},\"extra\":{\"eas\":{\"projectId\":\"e9445db1-feac-48e8-acda-c8c8b599eb02\"},\"router\":{\"origin\":false}},\"icon\":\"./assets/images/icon.png\",\"ios\":{\"supportsTablet\":true},\"name\":\"test-fingerprint\",\"orientation\":\"portrait\",\"owner\":\"keith-kurak\",\"platforms\":[\"android\",\"ios\",\"web\"],\"plugins\":[\"expo-router\"],\"runtimeVersion\":{\"policy\":\"fingerprint\"},\"scheme\":\"myapp\",\"sdkVersion\":\"51.0.0\",\"slug\":\"test-fingerprint\",\"splash\":{\"backgroundColor\":\"#ffffff\",\"image\":\"./assets/images/splash.png\",\"resizeMode\":\"contain\"},\"updates\":{\"url\":\"https://u.expo.dev/e9445db1-feac-48e8-acda-c8c8b599eb02\"},\"userInterfaceStyle\":\"automatic\",\"version\":\"1.0.0\",\"web\":{\"bundler\":\"metro\",\"favicon\":\"./assets/images/favicon.png\",\"output\":\"static\"}}",
+      "contents": "{\"android\":{\"adaptiveIcon\":{\"backgroundColor\":\"#ffffff\",\"foregroundImage\":\"./assets/images/adaptive-icon.png\"},\"package\":\"com.keithkurak.testfingerprint\"},\"experiments\":{\"typedRoutes\":true},\"extra\":{\"eas\":{\"projectId\":\"e9445db1-feac-48e8-acda-c8c8b599eb02\"},\"router\":{\"origin\":false}},\"icon\":\"./assets/images/icon.png\",\"ios\":{\"bundleIdentifier\":\"com.keithkurak.testfingerprint\",\"supportsTablet\":true},\"name\":\"test-fingerprint\",\"orientation\":\"portrait\",\"owner\":\"keith-kurak\",\"platforms\":[\"android\",\"ios\",\"web\"],\"plugins\":[\"expo-router\"],\"runtimeVersion\":{\"policy\":\"fingerprint\"},\"scheme\":\"myapp\",\"sdkVersion\":\"51.0.0\",\"slug\":\"test-fingerprint\",\"splash\":{\"backgroundColor\":\"#ffffff\",\"image\":\"./assets/images/splash.png\",\"resizeMode\":\"contain\"},\"updates\":{\"url\":\"https://u.expo.dev/e9445db1-feac-48e8-acda-c8c8b599eb02\"},\"userInterfaceStyle\":\"automatic\",\"version\":\"1.0.0\",\"web\":{\"bundler\":\"metro\",\"favicon\":\"./assets/images/favicon.png\",\"output\":\"static\"}}",
       "reasons": [
         "expoConfig"
       ],
-      "hash": "dbbbf0af4454c028e860183075ea0b5ff3038e02"
+      "hash": "5985325f7f5b722a6f60f226ee356e50a674ff49"
     },
     {
       "type": "contents",
@@ -1420,5 +1420,5 @@
       "hash": "4b05ff750bdf8065600d82df9bebcfc5fa20cc68"
     }
   ],
-  "hash": "7b0bb406c917bc335870617ba4415f64b306a112"
+  "hash": "bd468e8131a6b89c98e4ce2c8d0381923f3c07a5"
 }
